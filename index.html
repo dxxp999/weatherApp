@@ -1,0 +1,35 @@
+<html>
+   <title>Weather App</title>
+    <head>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="searchContainer">
+            <input class="searchControl" type="text" placeholder="City Name or Zipcode" id="searchInput">
+            <button class="searchControl" id="searchBtn">Search</button>
+        </div>
+        <div id="weatherContainer">
+            <div id="weatherDescription">
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                    <div><img id="documentIconImg"></div>
+                </div>
+                <hr>
+                <div id="windSpeed" class="bottom-details"></div>
+                <div id="humidity" class="bottom-details"></div>
+            </div>
+        </div>
+        <script src="script.js" ></script>
+    </body>
+</html>
